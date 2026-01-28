@@ -26,7 +26,7 @@ function App() {
   return (
     <div className="app">
       
-      <RouterProvider router={router} /> 
+      <RouterProvider router={router} basename="/BarBacheStavanger" /> 
         
       
     </div>
