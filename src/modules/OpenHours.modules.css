@@ -1,0 +1,26 @@
+.open-hours {
+    position: relative;
+    top: 7rem;
+    color: #F2E3D5;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 2rem;
+    font-size: 2rem;
+}
+
+
+
+.hours-table {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5rem;
+    font-size: 1.5rem;
+}
+
+.hours-table th {
+    padding-right: 2rem;
+    text-align: left;
+}

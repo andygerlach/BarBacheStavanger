@@ -1,0 +1,164 @@
+.tastings-container {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 5rem;
+    width: 100%;
+}
+
+.tastings-section {
+    display: flex;
+    flex-direction: column;
+    width: 100%
+}
+
+.tastings-header {
+    text-align: center;
+    font-size: 2.5rem;
+    padding: 2rem 0;
+    color: #072614;
+    background-color: #D2CDB3;
+    letter-spacing: 2px;
+}
+
+button {
+    font-family: "EB Garamond", serif;
+    letter-spacing: 1px;
+    margin: 1rem;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    color: #F2E3D5;
+    background-color: #8C2D18;
+    border: none;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #732514;
+    cursor: pointer;
+}
+
+.gin-tonic-tasting {
+    height: 40rem;
+    width: 100%;
+    background-image: linear-gradient(
+      rgba(0,0,0,0.7),
+      rgba(0,0,0,0.7)
+    ), url(/images/GinTonic.jpg);
+    background-size: cover;
+    background-position: center;
+    color: #F2E3D5;
+    align-content: center;
+    border-bottom: double 10px #D2CDB3;
+}
+
+.gin-tonic-tasting h3 {
+    margin: 1rem;
+    font-size: 2rem;
+}
+
+.gin-tonic-tasting p {
+    margin: 1rem;
+    font-size: 1.2rem;
+    line-height: 1.5;
+}
+
+.whiskey-tasting {
+    height: 40rem;
+    background-image: linear-gradient(
+      rgba(0,0,0,0.7),
+      rgba(0,0,0,0.7)
+    ), url(/images/Whiskey.jpg);
+    background-size: cover;
+    background-position: center;
+    color: #F2E3D5;
+    align-content: center;
+    border-bottom: double 10px #D2CDB3; 
+    
+}
+
+.whiskey-tasting h3 {
+    margin: 1rem;
+    font-size: 2rem;
+}
+
+.whiskey-tasting p {
+    margin: 1rem;
+    font-size: 1.2rem;
+    line-height: 1.5;
+}
+
+.premium-whiskey-tasting {
+    height: 40rem;
+    background-image: linear-gradient(
+      rgba(0,0,0,0.7),
+      rgba(0,0,0,0.7)
+    ), url(/images/PremiumWhiskey.jpg);
+    background-size: cover;
+    background-position: center;
+    color: #F2E3D5;
+    align-content: center;
+    border-bottom: double 10px #D2CDB3; 
+}
+
+.tasting-card {
+    width: 100%;
+    align-items: center;
+    text-align: center;
+}
+
+.premium-whiskey-tasting h3 {
+    margin: 1rem;
+    font-size: 2rem;
+}
+
+.premium-whiskey-tasting p {
+    margin: 1rem;
+    font-size: 1.2rem;
+    line-height: 1.5;
+}
+
+.Akevitt-tasting {
+    height: 40rem;
+    background-image: linear-gradient(
+      rgba(0,0,0,0.7),
+      rgba(0,0,0,0.7)
+    ), url(/images/Akevitt.jpg);
+    background-size: cover;
+    background-position: center;
+    color: #F2E3D5;
+    align-content: center;
+    border-bottom: double 10px #D2CDB3; 
+}
+
+.Akevitt-tasting h3 {
+    margin: 1rem;
+    font-size: 2rem;
+}
+
+.Akevitt-tasting p {
+    margin: 1rem;
+    font-size: 1.2rem;
+    line-height: 1.5;
+    
+}
+
+@media (min-width: 768px) {
+    .tastings-section {
+        align-items: center;
+    }
+
+    .gin-tonic-tasting, .whiskey-tasting, .premium-whiskey-tasting, .Akevitt-tasting {
+        width: 80%;
+        height: 50rem;
+        text-align: center;
+    }
+
+    .tasting-info {
+        width: 50%;
+        margin: 0 auto;
+
+    }
+
+
+}

@@ -1,0 +1,37 @@
+
+
+.weekly-events {
+    height: 40rem;
+    background-color: #072614;
+    color: #F2E3D5;
+    position: relative;
+    top: 5rem;
+    align-content: center;
+    text-align: center;
+}
+
+.weekly-events-heading {
+    font-size: 2rem;
+    margin:0rem 1rem 3rem ;
+    padding-top: 2rem;
+}
+
+.weekly-events-content {
+    font-size: 1.5rem;
+}
+
+.weekly-events-content p {
+    margin: 5rem 1.5rem;
+}
+
+.weekly-events-content table {
+    margin: 1rem auto;
+    border: 1px solid #F2E3D5;
+    ;
+}
+
+.weekly-events-content th, .weekly-events-content td {
+    padding: 1rem 1rem;
+    text-align: left;
+}
+

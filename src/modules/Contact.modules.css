@@ -1,0 +1,39 @@
+.contact {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 5rem;
+    align-items: center;
+    padding: 2rem;
+    color: #F2E3D5;
+}
+
+.contact p {
+    margin-bottom: 1rem;
+}
+
+.contact form input, textarea {
+    width: 25rem;
+    max-width: 500px;
+    margin-bottom: 1rem;
+    padding: 0.5rem;
+    border: 1px solid ;
+    border-radius: 5px #DFAB5E;
+    background-color: #F2E3D5;
+    color: #072614;
+    font-family: "EB Garamond", serif;
+}
+
+.contact form textarea {
+    height: 15rem;
+}
+
+.contact form button {
+    padding: 0.75rem 1.5rem;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    font-family: "EB Garamond", serif;
+    
+}

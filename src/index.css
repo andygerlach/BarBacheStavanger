@@ -1,0 +1,86 @@
+body {
+    background-color: #072614;
+    font-family: "EB Garamond", serif, "Amiri Quran", serif, "Times New Roman", Times, serif;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Color Theme Swatches in Hex */
+.INK-1-hex { color: #010D00; }
+.INK-2-hex { color: #595046; }
+.INK-3-hex { color: #F2E3D5; }
+.INK-4-hex { color: #BFAEA4; }
+.INK-5-hex { color: #0D0D0D; }
+
+/* Color Theme Swatches in RGBA */
+.INK-1-rgba { color: rgba(0, 12, 0, 1); }
+.INK-2-rgba { color: rgba(89, 80, 69, 1); }
+.INK-3-rgba { color: rgba(242, 226, 213, 1); }
+.INK-4-rgba { color: rgba(191, 174, 164, 1); }
+.INK-5-rgba { color: rgba(12, 12, 12, 1); }
+
+/* Color Theme Swatches in HSLA */
+.INK-1-hsla { color: hsla(118, 96, 2, 1); }
+.INK-2-hsla { color: hsla(33, 12, 31, 1); }
+.INK-3-hsla { color: hsla(28, 53, 89, 1); }
+.INK-4-hsla { color: hsla(22, 17, 69, 1); }
+.INK-5-hsla { color: hsla(0, 0, 5, 1); }
+
+
+/* Color Theme Swatches in Hex */
+.Irish-Pride-1-hex { color: #072614; }
+.Irish-Pride-2-hex { color: #DFAB5E; }
+.Irish-Pride-3-hex { color: #D2CDB3; }
+.Irish-Pride-4-hex { color: #732514; }
+.Irish-Pride-5-hex { color: #8C2D18; }
+
+/* Color Theme Swatches in RGBA */
+.Irish-Pride-1-rgba { color: rgba(7, 38, 20, 1); }
+.Irish-Pride-2-rgba { color: rgba(222, 170, 93, 1); }
+.Irish-Pride-3-rgba { color: rgba(210, 204, 178, 1); }
+.Irish-Pride-4-rgba { color: rgba(114, 36, 20, 1); }
+.Irish-Pride-5-rgba { color: rgba(140, 45, 23, 1); }
+
+/* Color Theme Swatches in HSLA */
+.Irish-Pride-1-hsla { color: hsla(145, 68, 8, 1); }
+.Irish-Pride-2-hsla { color: hsla(35, 66, 62, 1); }
+.Irish-Pride-3-hsla { color: hsla(49, 25, 76, 1); }
+.Irish-Pride-4-hsla { color: hsla(10, 70, 26, 1); }
+.Irish-Pride-5-hsla { color: hsla(10, 70, 32, 1); }
+
+/* Color Theme Swatches in Hex */
+.irish-1-hex { color: #021900; }
+.irish-2-hex { color: #021F06; }
+.irish-3-hex { color: #012402; }
+.irish-4-hex { color: #0D3303; }
+.irish-5-hex { color: #133700; }
+
+/* Color Theme Swatches in RGBA */
+.irish-1-rgba { color: rgba(1, 24, 0, 1); }
+.irish-2-rgba { color: rgba(1, 31, 6, 1); }
+.irish-3-rgba { color: rgba(1, 35, 2, 1); }
+.irish-4-rgba { color: rgba(13, 51, 3, 1); }
+.irish-5-rgba { color: rgba(19, 54, 0, 1); }
+
+/* Color Theme Swatches in HSLA */
+.irish-1-hsla { color: hsla(115, 100, 4, 1); }
+.irish-2-hsla { color: hsla(129, 87, 6, 1); }
+.irish-3-hsla { color: hsla(122, 94, 7, 1); }
+.irish-4-hsla { color: hsla(107, 88, 10, 1); }
+.irish-5-hsla { color: hsla(99, 100, 10, 1); }
+
