@@ -20,7 +20,7 @@ const router = createBrowserRouter(createRoutesFromElements(
   </Route>
 ),
 {
-  basename: "/BarBacheStavanger/"
+  basename: "/BarBacheStavanger"
 }
 )
 
