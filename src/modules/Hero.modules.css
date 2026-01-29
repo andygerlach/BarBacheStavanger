@@ -7,7 +7,7 @@
     flex-direction: column;
     background-image: linear-gradient(
       rgba(0,0,0,0.4),
-      rgba(0,0,0,0.4)), url(../public/images/Lamp.png);
+      rgba(0,0,0,0.4)), url(/images/Lamp.png);
     background-size: cover;
     overflow: hidden;
 }

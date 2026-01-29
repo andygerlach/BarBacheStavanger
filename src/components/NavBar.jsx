@@ -1,5 +1,6 @@
 import { useState } from "react"
 import { NavLink } from "react-router-dom"
+import logo from "../assets/BB-Logo.jpg"
 import "../modules/NavBar.modules.css"
 
 export default function NavBar() {
@@ -10,7 +11,7 @@ export default function NavBar() {
   return (
     <div className="nav-bar">
       <div className="nav-logo-container">
-      <img src="/images/BB-Logo.jpg" alt="Bar Bache Logo" className="nav-logo" />
+      <img src={logo} alt="Bar Bache Logo" className="nav-logo" />
       <h1>Bar Bache</h1>
       </div>
 

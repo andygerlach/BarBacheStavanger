@@ -18,7 +18,11 @@ const router = createBrowserRouter(createRoutesFromElements(
     <Route path="bookings" element={<PremiumBookingCalendar />} />
     <Route path="contact" element={<Contact />} />
   </Route>
-))
+),
+{
+  basename: "/BarBacheStavanger"
+}
+)
 
 function App() {
   
@@ -26,7 +30,7 @@ function App() {
   return (
     <div className="app">
       
-      <RouterProvider router={router} basename="/BarBacheStavanger" /> 
+      <RouterProvider router={router} /> 
         
       
     </div>
