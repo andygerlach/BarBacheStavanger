@@ -11,8 +11,8 @@ export default function NavBar() {
   return (
     <div className="nav-bar">
       <div className="nav-logo-container">
-      <img src={logo} alt="Bar Bache Logo" className="nav-logo" />
-      <h1>Bar Bache</h1>
+      <NavLink to="/"><img src={logo} alt="Bar Bache Logo" className="nav-logo" /></NavLink>
+      <NavLink to="/"><h1>Bar Bache</h1></NavLink>
       </div>
 
       <div>

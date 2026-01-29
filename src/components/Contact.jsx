@@ -4,7 +4,7 @@ import '../modules/Contact.modules.css';
 export default function Contact() {
     return (
         <div className="contact">
-            <h1>Contact Us</h1>
+            <h2>Contact Us</h2>
             <p>If you have any questions or would like to get in touch, please reach out to us!</p>
             <form>
                 

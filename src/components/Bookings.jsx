@@ -1,9 +1,36 @@
 import { useState } from "react";
 
-const timeSlots = [
-  "17:00", "18:00", "19:00", "20:00",
-  "21:00", "22:00"
-];
+const getTimeSlotsForDate = (date) => {
+  const day = date.getDay(); // 0=Sun, 5=Fri, 6=Sat
+
+  // Weekdays (Mon–Thu)
+  if (day >= 0 && day <= 4) {
+    return [
+      "17:00", "18:00", "19:00",
+      "20:00", "21:00", "22:00"
+    ];
+  }
+
+  // Friday
+  if (day === 5) {
+    return [
+      "15:00", "16:00",
+      "17:00", "18:00", "19:00",
+      "20:00", "21:00", "22:00"
+    ];
+  }
+
+  // Saturday
+  if (day === 6) {
+    return [
+      "13:00", "14:00", "15:00", "16:00",
+      "17:00", "18:00", "19:00",
+      "20:00", "21:00", "22:00"
+    ];
+  }
+
+};
+
 
 // Example structure: number of bookings per slot (YYYY-MM-DD)
 const initialBookedSlots = {
@@ -105,7 +132,8 @@ export default function Bookings() {
         <div style={{ fontFamily: "EB Garamond, serif", marginTop: "1rem", justifyContent: "center", textAlign: "center", color: "#F2E3D5", position: "relative", top: "7rem" }}>
           <h3>Select a time for {selectedDate.toDateString()}:</h3>
           <div style={{ display: "flex", flexWrap: "wrap", gap: "0.5rem", marginTop: "0.5rem", justifyContent: "center", textAlign: "center"}}>
-            {timeSlots.map(time => {
+            {getTimeSlotsForDate(selectedDate).map(time => {
+
               const dateKey = formatDateKey(selectedDate);
               const count = bookedSlots[dateKey]?.[time] || 0;
               const isFull = count >= 6;

@@ -6,8 +6,8 @@
     display: flex;
     flex-direction: column;
     background-image: linear-gradient(
-      rgba(0,0,0,0.4),
-      rgba(0,0,0,0.4)), url(/images/Lamp.png);
+      rgba(0,0,0,0.7),
+      rgba(0,0,0,0.7)), url(/images/Lamp.png);
     background-size: cover;
     overflow: hidden;
 }
@@ -89,8 +89,8 @@
     display: flex;
     flex-direction: column;
     background-image: linear-gradient(
-      rgba(0,0,0,0.4),
-      rgba(0,0,0,0.4)), url(/images/Lamp.png);
+      rgba(0,0,0,0.6),
+      rgba(0,0,0,0.6)), url(/images/Lamp.png);
     background-size: cover;
     overflow: hidden;
 }
